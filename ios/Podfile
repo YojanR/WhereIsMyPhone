@@ -77,6 +77,8 @@ target 'wimp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'react-native-torch', :path => '../node_modules/react-native-torch'
+
   target 'wimpTests' do
     inherit! :complete
     # Pods for testing
